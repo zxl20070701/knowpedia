@@ -1,0 +1,23 @@
+{
+  "name": "knowpedia",
+  "description": "《个人知识文库》电子版本",
+  "scripts": {
+    "dev": "oipage-cli serve -p 20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxl20070701/knowpedia.git"
+  },
+  "keywords": [
+    "knowpedia"
+  ],
+  "author": "zxl20070701",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxl20070701/knowpedia/issues"
+  },
+  "homepage": "https://github.com/zxl20070701/knowpedia#readme",
+  "devDependencies": {
+    "oipage": "^1.4.1"
+  }
+}

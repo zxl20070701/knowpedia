@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="./htmls/book/mod.css">
+<div ng-init='initMethod()' class="book-page">
+    <div class="header">
+        <a href="https://github.com/zxl20070701/knowpedia" target="_blank" title="温馨提示：点击我访问源码！">
+            《个人知识文库》电子版本
+        </a> / {{volume}} / {{session}}
+    </div>
+    <div class="content">
+        <div class="menu">
+            <div class="btn" ng-attr-active="{{index===$index?'yes':'no'}}" ng-repeat="item in menus"
+                ng-click="openItem($index)">
+                #{{$index+1}} {{item.name}}
+            </div>
+        </div>
+        <div class="page">
+            <div class="item" ng-repeat="item in page">
+                <img ng-attr-src="{{item.url}}" class="img">
+                <div class="num">{{item.footer}}</div>
+            </div>
+        </div>
+    </div>
+</div>
