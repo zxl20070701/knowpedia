@@ -23,6 +23,12 @@
     </a>
 </p>
 
+## 目录
+
+### 一、数学
+
+- [多项式](https://zxl20070701.github.io/knowpedia/#/book/数学/多项式)
+
 ## 版权
 
 MIT License
