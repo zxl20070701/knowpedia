@@ -29,6 +29,7 @@
 
 - [多项式](https://zxl20070701.github.io/knowpedia/#/book/数学/多项式)
 - [向量](https://zxl20070701.github.io/knowpedia/#/book/数学/向量)
+- [函数](https://zxl20070701.github.io/knowpedia/#/book/数学/函数)
 
 ## 版权
 
